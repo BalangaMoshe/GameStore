@@ -24,6 +24,7 @@ public class BaseTest {
             pstmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
+
         }
     }
 }
